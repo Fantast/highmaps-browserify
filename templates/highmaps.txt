@@ -1,0 +1,6 @@
+
+var HighchartsAdapter = window.HighchartsAdapter = require('highcharts-browserify/adapters/standalone-framework');
+
+<%= contents %>;
+
+module.exports = window.Highcharts;

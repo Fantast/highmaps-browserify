@@ -1,0 +1,43 @@
+{
+  "name": "highmaps-browserify",
+  "version": "2.0.2",
+  "description": "Highmaps wrapper for browserify",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "modules"
+  ],
+  "scripts": {
+    "prepublish": "gulp",
+    "build": "gulp",
+    "test": "gulp && tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Fantast/highmaps-browserify.git"
+  },
+  "keywords": [
+    "chart",
+    "browserify",
+    "highcharts",
+    "highmaps",
+    "map"
+  ],
+  "author": "Dzmitry Paulenka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Fantast/highmaps-browserify/issues"
+  },
+  "homepage": "https://github.com/Fantast/highmaps-browserify",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-wrap": "^0.11.0",
+    "tape": "^4.2.1"
+  },
+  "dependencies": {
+    "highcharts-browserify": "^2.0.2",
+    "highmaps-release": "^1.1.9"
+  }
+}
